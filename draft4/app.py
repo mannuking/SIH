@@ -1,6 +1,6 @@
 import streamlit as st
 import cv2
-from utils.pose_estimation import process_frame_for_pose  # Assuming you have these utils files
+from utils.pose_estimation import process_frame_for_pose  
 from utils.llava_interaction import get_feedback_from_llava
 from video_processor import VideoProcessor
 from workout_plans import get_workout_plans

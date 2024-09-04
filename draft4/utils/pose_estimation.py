@@ -26,9 +26,4 @@ def process_frame_for_pose(frame, exercise_type):
         mp_drawing.draw_landmarks(
             image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
 
-        # Exercise-specific analysis (e.g., angle calculations)
-        # ... (Add logic for different exercise types here)
-
     return pose_landmarks, image 
-
-#10101010

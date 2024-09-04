@@ -1,9 +1,9 @@
+# utils/llava_interaction.py
 import torch
 import cv2
 import numpy as np
 from transformers import LlavaNextVideoProcessor, LlavaNextVideoForConditionalGeneration
 import streamlit as st
-
 
 # Load LLaVA model (only once)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
