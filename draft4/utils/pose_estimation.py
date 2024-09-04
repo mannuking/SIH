@@ -30,3 +30,5 @@ def process_frame_for_pose(frame, exercise_type):
         # ... (Add logic for different exercise types here)
 
     return pose_landmarks, image 
+
+#10101010
