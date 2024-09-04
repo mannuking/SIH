@@ -15,6 +15,7 @@ def process_frame_for_pose(frame, exercise_type):
 
     # Make detection
     results = pose.process(image)
+    #I HAVE MADE THE CHANGES
 
     # Recolor back to BGR
     image.flags.writeable = True
