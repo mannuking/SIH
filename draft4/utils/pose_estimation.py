@@ -164,7 +164,6 @@ def process_frame_for_pose(frame, exercise_type):
         annotated_image = draw_landmarks_on_image(mp_image.numpy_view(), detection_result)
         cv2.putText(annotated_image, f"Squat Count: {squat_count}", (3, 100), cv2.FONT_HERSHEY_SIMPLEX, 3, (0, 255, 0), 4)
 
-    
         
         # Calculate the angle between shoulder, elbow, and wrist
         left_elbow_angle = calculate_angle(left_shoulder, left_elbow, left_wrist)
