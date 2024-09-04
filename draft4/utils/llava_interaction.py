@@ -4,6 +4,9 @@ import cv2
 import numpy as np
 from transformers import LlavaNextVideoProcessor, LlavaNextVideoForConditionalGeneration
 import streamlit as st
+import tensorflow as tf
+with tf.device('/GPU:0'):
+    print('GPU is available')
 
 # Load LLaVA model (only once)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

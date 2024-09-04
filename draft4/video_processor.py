@@ -5,6 +5,7 @@ import numpy as np  # Import numpy for angle calculations
 from utils.pose_estimation import process_frame_for_pose
 from utils.llava_interaction import get_feedback_from_llava
 import streamlit as st
+import mediapipe as mp
 
 class VideoProcessor:
     def __init__(self, workout_plan):
