@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WorkoutAI Draft 4 Flowchart</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> 
+</head>
+<body>
+<div class="mermaid">
+  graph TD;
+    A[Start Workout] --> B{Record Video Section};
+    B --> C[Analyze Recorded Video];
+    C --> D[Generate Feedback];
+    D --> E[Display Feedback];
+    E --> F(Continue Real-time Camera Feed);
+</div>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: true
+  });
+</script>
+</body>
+</html>
