@@ -88,9 +88,9 @@ if not st.session_state.workout_active and st.session_state.video_processor:
         if st.session_state.video_processor.ai_feedback:
             st.write("## AI Trainer Feedback:")
             st.write(st.session_state.video_processor.ai_feedback)
-            st.session_state.video_processor.provide_audio_feedback(
-                st.session_state.video_processor.ai_feedback
-            )
+            # st.session_state.video_processor.provide_audio_feedback(
+            #     st.session_state.video_processor.ai_feedback
+            # )
 
     # --- Reset the video processor ---
     st.session_state.video_processor = None

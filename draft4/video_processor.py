@@ -94,9 +94,9 @@ class VideoProcessor:
             llava_feedback = self.analyze_video_with_llava(
                 recorded_video_path
             )
-            self.provide_audio_feedback(llava_feedback)
+            # self.provide_audio_feedback(llava_feedback)
             self.ai_feedback = llava_feedback
-            os.remove(recorded_video_path)
+            os.remove(recorded_video_path)  #it is made to ensure data privacy of users
 
 
     def recognize_workout(self, landmarks):
