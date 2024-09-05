@@ -6,7 +6,7 @@ from mediapipe.tasks.python import vision
 from mediapipe import solutions
 from mediapipe.framework.formats import landmark_pb2
 
-model_path = r"E:\Projects\SIH\draft4\Models\pose_landmarker_lite.task" 
+model_path = r"D:\SIH 2024\pose_landmarker_heavy.task" 
 # Make sure this path is correct for your system!
 
 base_options = mp.tasks.BaseOptions(model_asset_path=model_path)
