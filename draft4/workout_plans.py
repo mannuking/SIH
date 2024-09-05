@@ -1,4 +1,5 @@
 def get_workout_plans():
+    """Returns a dictionary of available workout plans."""
     return {
         "Squats": {
             "name": "Squats",
@@ -11,11 +12,5 @@ def get_workout_plans():
             "target_reps": 10,
             "target_sets": 3,
             "instructions": "Start in a plank position, lower your body until your chest nearly touches the floor, then push back up.",
-        },
-        "Bicep Curls": {
-            "name": "Bicep Curls",
-            "target_reps": 12,
-            "target_sets": 3,
-            "instructions": "Stand with weights at your sides, palms facing forward. Curl the weights towards your shoulders, then lower back down.",
         },
     }
